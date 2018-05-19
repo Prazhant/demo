@@ -21,6 +21,7 @@ public class IndustryController {
 
     @PostMapping("/industry")
     public  void save(Industry industry){
+        //some code added
         repo.save(industry);
     }
 }
